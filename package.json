@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,7 @@
     "npm": "^10.9.0",
     "style-loader": "^4.0.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.95.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   }

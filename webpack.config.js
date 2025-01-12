@@ -29,5 +29,10 @@ module.exports = {
         type: "asset/resource",
       },     
     ],
+  },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/Restaurant-Page/',
   }, 
 };
